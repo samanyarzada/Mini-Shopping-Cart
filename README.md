@@ -1,16 +1,90 @@
-# React + Vite
+# 🛒 Mini Shopping Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive shopping cart application built with **React** and **Vite**.
 
-Currently, two official plugins are available:
+This project demonstrates the basics of building a modern shopping cart interface, including displaying products, managing cart items, and calculating the total price.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🛍️ Display products
+- ➕ Add products to the shopping cart
+- ➖ Increase or decrease product quantity
+- 🗑️ Remove products from the cart
+- 💰 Calculate the total price
+- 📱 Responsive and user-friendly interface
+- ⚡ Fast development with Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies
 
-## Expanding the ESLint configuration
+- **React**
+- **JavaScript**
+- **Vite**
+- **CSS**
+- **ESLint**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/samanyarzada/Mini-Shopping-Cart.git
+```
+
+### Navigate to the project
+
+```bash
+cd Mini-Shopping-Cart
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL provided by Vite in your browser.
+
+## 📁 Project Structure
+
+```text
+Mini-Shopping-Cart/
+├── public/
+├── src/
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+## 🎯 Project Purpose
+
+The purpose of this project is to practice **React fundamentals**, including component-based development, state management, event handling, and creating an interactive user interface.
+
+## 🔮 Future Improvements
+
+- Add product categories
+- Add product search and filtering
+- Add product details page
+- Add local storage for cart persistence
+- Add checkout functionality
+- Add dark mode
+- Connect the application to a real product API
+
+## 👨‍💻 Author
+
+**Saman Yarzada**
+
+GitHub: [@samanyarzada](https://github.com/samanyarzada)
+
+## 📄 License
+
+This project is open source and available for learning and personal use.
